@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+body{
+    background-color:#ccc;
+}
+
+
+.header{
+    background-color: white;
+    padding: 10px 0;
+    display: flex;
+}
+
+.headerLeft{
+    width: 50%;
+    flex-direction: row;
+    display: flex;
+}
+
+.logo-fb svg{
+  color: #3b5998; 
+  font-size: 40px;
+  margin: 0 10px; 
+}
+
+.search-fb{
+    background-color: rgb(230, 230, 230);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.search-fb svg{
+    color:grey;
+    font-size: 15px;
+}
+.menu-fb{
+    cursor: pointer;
+    margin-left: 25px;
+    position: relative;
+    padding: 8px 10px;
+}
+.menu-fb:hover{
+    background-color: rgb(200, 200, 200);
+}
+
+.menu-fb svg{
+    color: gray;
+    font-size: 25px;
+
+}
+
+.headerRigth{
+    width: 50%;
+    text-align: right;
+    margin: 0 20px;
+}
+.plus-btn{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: rgb(200, 200, 200);
+    text-align: center;
+    line-height: 40px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.stories{
+    display: flex;
+    margin: 10px 0;
+}
+
+.storiesCard{
+    width: 19%;
+    margin-right: 1%;
+    padding-top: 25%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.storiesCard p{
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    
+}
+
+.feed{
+    background-color: white;
+    padding:10px;
+}
+.feedForm{
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.feedForm img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.feedForm input{
+    position:relative;
+    top: -8px;
+    margin-left: 2%;
+    width: calc(98% - 40px);
+    height: 50px;
+    background-color:rgb(230, 230, 230);
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 15px ;
+    border: 0;
+}
+.feedForm input :focus{
+    outline: 0;
+}
+.feedIcons{
+    padding: 20px 40px;
+    display: flex;
+    background-color: white;
+}
+.iconSingle{
+    width: 33.3%;
+    text-align: center;
+}
+
+.iconSingle svg{
+    vertical-align: middle;
+    font-size: 25px;
+    color:#f02849;
+    margin: 0 10px;
+}
+.iconSingle{
+    font-weight: bold;
+    color:gray;
+    margin: 0 10px;
+}
+
+.btn{
+    background-color:white;
+    border: none;
+    font-weight: bold;
+    color:gray;
+    margin: 0 10px;
+}
+
+.iconSingle.img svg{
+    color:#45db62;
+}
+.iconSingle.emoji svg{
+    color:yellow;
+}
+
+.feedPost{
+    margin-top: 10px;
+    background-color: whitesmoke;
+}
+.feedPostSingle{
+    margin:20px;
+    
+}
+.feedPost_profile{
+    padding: 20px;
+
+}
+.feedPost_profile h3{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 20px;
+
+}
+
+.feedPost_profile h3 > span{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.feedPost_profile img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.feedPost_content p{
+    margin: 10px 20px;
+    margin-bottom: 10px;
+
+}
+.feedPost_content img{
+    width: 100%;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.feedPost_coments{
+    padding: 20px;
+
+}
+.feedPost_coments h3{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 20px;
+
+}
+
+.feedPost_coments h3 > span{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.feedPost_coments img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;}
+
+
+
+    .hide{
+        display: none;
+        
+    }
